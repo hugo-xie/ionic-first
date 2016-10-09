@@ -1,0 +1,18 @@
+<ion-view view-title="Reservation">
+<ion-content>
+ <div class="list">
+   <div class="item item-icon-left">
+     <i class="icon ion-key"></i>Room:{{reservation.room}}
+   </div>
+   <div class="item item-icon-left">
+     <i class="icon ion-calendar"></i>Check In:{{reservation.checkin|date:'mediumDate'}}
+   </div>
+   <div class="item item-icon-left">
+     <i class="icon ion-calendar"></i>Check Out:{{reservation.checkout|date:'mediumDate'}}
+   </div>
+   <div class="item item-icon-left">
+     <i class="icon ion-wifi"></i>WIFI Code:{{reservation.wifi}}
+   </div>
+ </div>
+</ion-content>
+</ion-view>
